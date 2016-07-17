@@ -1,0 +1,6 @@
+// Babel setting to enable es2015 mode stage-0 in Babel and transform react syntax
+
+{
+	"presets": ["es2015", "stage-0", "react"],
+  	"plugins": ["transform-decorators-legacy", "react-hot-loader/babel"]
+}
